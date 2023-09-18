@@ -21,4 +21,6 @@ public class Persona implements Serializable {
     @Email
     private String email;
     private String telefono;
+    @NotNull
+    private Double saldo;
 }
